@@ -1,0 +1,35 @@
+widget_ArnmContent_Text_edit:
+    pattern:  /araneum/widget/Content/Text/edit
+    defaults: { _controller: ArnmContentBundle:Widgets\Text:edit }
+    requirements:
+        _method:  GET
+widget_ArnmContent_Text_data:
+    pattern:  /araneum/widget/Content/Text/data/{id}
+    defaults: { _controller: ArnmContentBundle:Widgets\Text:data }
+    requirements:
+        id:  \d+
+        _method:  GET
+widget_ArnmContent_Text_update:
+    pattern:  /araneum/widget/Content/Text/update/{id}
+    defaults: { _controller: ArnmContentBundle:Widgets\Text:update }
+    requirements:
+        id:  \d+
+        _method:  PUT
+        
+widget_ArnmContent_Html_edit:
+    pattern:  /araneum/widget/Content/Html/edit
+    defaults: { _controller: ArnmContentBundle:Widgets\Html:edit }
+    requirements:
+        _method:  GET
+widget_ArnmContent_Html_data:
+    pattern:  /araneum/widget/Content/Html/data/{id}
+    defaults: { _controller: ArnmContentBundle:Widgets\Html:data }
+    requirements:
+        id:  \d+
+        _method:  GET
+widget_ArnmContent_Html_update:
+    pattern:  /araneum/widget/Content/Html/update/{id}
+    defaults: { _controller: ArnmContentBundle:Widgets\Html:update }
+    requirements:
+        id:  \d+
+        _method:  PUT

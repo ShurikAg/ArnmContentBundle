@@ -1,0 +1,24 @@
+{
+    "name": "iibs/arnm-content",
+    "description": "Araneum's content bundle",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Alex Agulyansky",
+            "email": "alex@iibspro.com",
+            "homepage": "http://www.iibspro.com",
+            "role": "Dev Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Arnm\\ContentBundle": "" }
+    },
+    "target-dir": "Arnm/ContentBundle",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "2.4.*",
+        "doctrine/orm": ">=2.2.3,<2.4-dev",
+        "stof/doctrine-extensions-bundle": "dev-master",
+        "iibs/arnm-widget": "1.0.*"
+    }
+}
