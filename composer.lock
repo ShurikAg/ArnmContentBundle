@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f549a9774139c6059722075599da5d3c",
+    "hash": "cb0bc2375684f7fc5771ecb5610ed862",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -66,7 +66,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -141,7 +141,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -187,7 +187,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -284,7 +284,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -301,16 +301,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "2.3.4",
+            "version": "2.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "2a37b007dda8e21bdbb8fa445be8fa0064199e13"
+                "reference": "d5067b0b7e5ef59ba165dcc116c539400bf957ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/2a37b007dda8e21bdbb8fa445be8fa0064199e13",
-                "reference": "2a37b007dda8e21bdbb8fa445be8fa0064199e13",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/d5067b0b7e5ef59ba165dcc116c539400bf957ff",
+                "reference": "d5067b0b7e5ef59ba165dcc116c539400bf957ff",
                 "shasum": ""
             },
             "require": {
@@ -334,23 +334,20 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/",
-                    "role": "Creator"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com",
-                    "homepage": "http://www.instaclick.com"
-                },
-                {
                     "name": "Roman Borschel",
                     "email": "roman@code-factory.org"
                 },
                 {
                     "name": "Benjamin Eberlei",
                     "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
                 }
             ],
             "description": "Database Abstraction Layer",
@@ -361,7 +358,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2013-05-11 07:45:37"
+            "time": "2014-09-15 11:44:29"
         },
         {
             "name": "doctrine/inflector",
@@ -411,9 +408,9 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -467,7 +464,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -632,22 +629,22 @@
         },
         {
             "name": "iibs/arnm-core",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "target-dir": "Arnm/CoreBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShurikAg/ArnmCoreBundle.git",
-                "reference": "23d4f93187ef507c52711be3f7faf81343f12e57"
+                "reference": "024babe7a34eb5125dbbd4ca7599cbbc20d92fbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShurikAg/ArnmCoreBundle/zipball/23d4f93187ef507c52711be3f7faf81343f12e57",
-                "reference": "23d4f93187ef507c52711be3f7faf81343f12e57",
+                "url": "https://api.github.com/repos/ShurikAg/ArnmCoreBundle/zipball/024babe7a34eb5125dbbd4ca7599cbbc20d92fbc",
+                "reference": "024babe7a34eb5125dbbd4ca7599cbbc20d92fbc",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "symfony/symfony": "2.4.*"
+                "symfony/symfony": "2.5.*"
             },
             "type": "library",
             "autoload": {
@@ -665,29 +662,29 @@
                 }
             ],
             "description": "Core bundle of Araneum",
-            "time": "2014-06-12 07:16:25"
+            "time": "2014-09-17 06:15:06"
         },
         {
             "name": "iibs/arnm-pages",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "target-dir": "Arnm/PagesBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShurikAg/ArnmPagesBundle.git",
-                "reference": "c944d92ab55a26af5645b2bb4269be775699461e"
+                "reference": "7bfad9b320d41a1d3f6a24b247e3921700ee3df4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShurikAg/ArnmPagesBundle/zipball/c944d92ab55a26af5645b2bb4269be775699461e",
-                "reference": "c944d92ab55a26af5645b2bb4269be775699461e",
+                "url": "https://api.github.com/repos/ShurikAg/ArnmPagesBundle/zipball/7bfad9b320d41a1d3f6a24b247e3921700ee3df4",
+                "reference": "7bfad9b320d41a1d3f6a24b247e3921700ee3df4",
                 "shasum": ""
             },
             "require": {
                 "doctrine/orm": ">=2.2.3,<2.4-dev",
-                "iibs/arnm-core": "1.0.0",
+                "iibs/arnm-core": "1.0.1",
                 "php": ">=5.3.3",
                 "stof/doctrine-extensions-bundle": "dev-master",
-                "symfony/symfony": "2.4.*"
+                "symfony/symfony": "2.5.*"
             },
             "type": "library",
             "autoload": {
@@ -705,30 +702,30 @@
                 }
             ],
             "description": "Araneum's pages bundle",
-            "time": "2014-07-06 23:39:08"
+            "time": "2014-09-17 06:31:00"
         },
         {
             "name": "iibs/arnm-widget",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "target-dir": "Arnm/WidgetBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ShurikAg/ArnmWidgetBundle.git",
-                "reference": "fa9032cd924d6dc103a4bd2d48cffb79e9549702"
+                "reference": "d9c9e3e3f3ab9c00ce9e3a09cd076b7ccb54cf7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ShurikAg/ArnmWidgetBundle/zipball/fa9032cd924d6dc103a4bd2d48cffb79e9549702",
-                "reference": "fa9032cd924d6dc103a4bd2d48cffb79e9549702",
+                "url": "https://api.github.com/repos/ShurikAg/ArnmWidgetBundle/zipball/d9c9e3e3f3ab9c00ce9e3a09cd076b7ccb54cf7b",
+                "reference": "d9c9e3e3f3ab9c00ce9e3a09cd076b7ccb54cf7b",
                 "shasum": ""
             },
             "require": {
                 "doctrine/orm": ">=2.2.3,<2.4-dev",
-                "iibs/arnm-core": "1.0.0",
-                "iibs/arnm-pages": "1.0.0",
+                "iibs/arnm-core": "1.0.1",
+                "iibs/arnm-pages": "1.0.1",
                 "php": ">=5.3.3",
                 "stof/doctrine-extensions-bundle": "dev-master",
-                "symfony/symfony": "2.4.*"
+                "symfony/symfony": "2.5.*"
             },
             "type": "library",
             "autoload": {
@@ -746,7 +743,7 @@
                 }
             ],
             "description": "Araneum's widgets bundle",
-            "time": "2014-06-11 09:33:28"
+            "time": "2014-09-17 06:51:02"
         },
         {
             "name": "psr/log",
@@ -789,16 +786,15 @@
         {
             "name": "stof/doctrine-extensions-bundle",
             "version": "dev-master",
-            "target-dir": "Stof/DoctrineExtensionsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stof/StofDoctrineExtensionsBundle.git",
-                "reference": "085cda7ce5dc12b807a5a7856f178c93725a9166"
+                "reference": "cfe13e8c64a5067f6d0ce63630a0c97911789198"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stof/StofDoctrineExtensionsBundle/zipball/085cda7ce5dc12b807a5a7856f178c93725a9166",
-                "reference": "085cda7ce5dc12b807a5a7856f178c93725a9166",
+                "url": "https://api.github.com/repos/stof/StofDoctrineExtensionsBundle/zipball/cfe13e8c64a5067f6d0ce63630a0c97911789198",
+                "reference": "cfe13e8c64a5067f6d0ce63630a0c97911789198",
                 "shasum": ""
             },
             "require": {
@@ -817,8 +813,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Stof\\DoctrineExtensionsBundle": ""
+                "psr-4": {
+                    "Stof\\DoctrineExtensionsBundle\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -846,24 +842,25 @@
                 "translatable",
                 "tree"
             ],
-            "time": "2014-07-08 17:06:10"
+            "time": "2014-08-28 20:29:53"
         },
         {
             "name": "symfony/icu",
-            "version": "v1.2.1",
+            "version": "v1.2.2",
             "target-dir": "Symfony/Component/Icu",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Icu.git",
-                "reference": "98e197da54df1f966dd5e8a4992135703569c987"
+                "reference": "d4d85d6055b87f394d941b45ddd3a9173e1e3d2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Icu/zipball/98e197da54df1f966dd5e8a4992135703569c987",
-                "reference": "98e197da54df1f966dd5e8a4992135703569c987",
+                "url": "https://api.github.com/repos/symfony/Icu/zipball/d4d85d6055b87f394d941b45ddd3a9173e1e3d2a",
+                "reference": "d4d85d6055b87f394d941b45ddd3a9173e1e3d2a",
                 "shasum": ""
             },
             "require": {
+                "ext-intl": "*",
                 "lib-icu": ">=4.4",
                 "php": ">=5.3.3",
                 "symfony/intl": "~2.3"
@@ -894,20 +891,20 @@
                 "icu",
                 "intl"
             ],
-            "time": "2013-10-04 10:06:38"
+            "time": "2014-07-25 09:58:17"
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.4.7",
+            "version": "v2.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "e72f9ebfdf0041e810652f8e893bd3f5e11abfed"
+                "reference": "3a369dddea56596df91977d8c2083e70784852f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/e72f9ebfdf0041e810652f8e893bd3f5e11abfed",
-                "reference": "e72f9ebfdf0041e810652f8e893bd3f5e11abfed",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/3a369dddea56596df91977d8c2083e70784852f2",
+                "reference": "3a369dddea56596df91977d8c2083e70784852f2",
                 "shasum": ""
             },
             "require": {
@@ -965,6 +962,7 @@
                 "doctrine/data-fixtures": "1.0.*",
                 "doctrine/dbal": "~2.2",
                 "doctrine/orm": "~2.2,>=2.2.3",
+                "egulias/email-validator": "~1.2",
                 "ircmaxell/password-compat": "1.0.*",
                 "monolog/monolog": "~1.3",
                 "ocramius/proxy-manager": ">=0.3.1,<0.6-dev",
@@ -973,7 +971,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
@@ -994,14 +992,12 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "The Symfony PHP framework",
@@ -1009,7 +1005,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-07-08 11:54:27"
+            "time": "2014-09-03 09:51:48"
         },
         {
             "name": "twig/twig",
@@ -1051,7 +1047,7 @@
                     "role": "Lead Developer"
                 },
                 {
-                    "name": "Armin Ronacher2",
+                    "name": "Armin Ronacher",
                     "email": "armin.ronacher@active-4.com",
                     "role": "Project Founder"
                 },
@@ -1079,6 +1075,7 @@
     "stability-flags": {
         "stof/doctrine-extensions-bundle": 20
     },
+    "prefer-stable": false,
     "platform": {
         "php": ">=5.3.3"
     },
