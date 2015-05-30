@@ -19,6 +19,6 @@
         "symfony/symfony": "2.5.*",
         "doctrine/orm": ">=2.2.3,<2.4-dev",
         "stof/doctrine-extensions-bundle": "dev-master",
-        "iibs/arnm-widget": "1.0.1"
+        "iibs/arnm-widget": "1.0.*"
     }
 }
