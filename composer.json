@@ -1,7 +1,7 @@
 {
     "name": "iibs/arnm-content",
     "description": "Araneum's content bundle",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
         {
             "name": "Alex Agulyansky",
@@ -15,9 +15,9 @@
     },
     "target-dir": "Arnm/ContentBundle",
     "require": {
-        "php": ">=5.3.3",
-        "symfony/symfony": "2.5.*",
-        "doctrine/orm": ">=2.2.3,<2.4-dev",
+	"php": ">=5.3.9",
+        "symfony/symfony": "2.7.*",
+        "doctrine/orm": "~2.2,>=2.2.3,<2.5",
         "stof/doctrine-extensions-bundle": "dev-master",
         "iibs/arnm-widget": "1.0.*"
     }
